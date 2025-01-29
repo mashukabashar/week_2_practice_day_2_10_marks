@@ -1,0 +1,60 @@
+.meal-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 14px 14px 28px gray;
+    padding:10px;
+    height: 500px;
+    width:400px;
+}
+
+.card1{
+    box-shadow: 14px 14px 28px gray;
+    padding:10px;
+    height: auto;
+    width:400px;
+}
+
+.card-img{
+    width: 100%;
+    height: 350px;
+}
+
+
+.food-name{
+    height: 50px;
+    width: 40%;
+    margin: 50px;
+}
+
+.search-button{
+    height: 50px;
+    padding: 15px;
+    width: 150px;
+    background-color: orange;
+    border-style: none;
+    color: white;
+    font-weight: bolder;
+    margin: 50px;
+}
+
+.notFound{
+    color: red;
+}
+
+.details{
+   display: flex;
+   justify-content: center;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+}
